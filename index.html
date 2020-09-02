@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stockport Design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+body {
+background-color: #ffffff;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+</style>
+
+<script>
+function PageLoad()
+{
+setTimeout(function () {
+   window.location.href = "http://torontoscharcoal.co.uk/";
+}, 5000);
+}
+</script>
+
+
+
+
+</head>
+
+
+<body onload="PageLoad()" >
+<div class="container">
+<br>
+<br>
+
+<div align="center">
+<img border="0" src="Splash.jpg" id="LogoImg">
+</div>
+
+<div align="center">
+<div class="loader"></div>
+</div>
+
+
+<div align="center">
+<div class="footer">
+  <font face="Century Gothic" color="#000000" size="2">Created by Stockport Design -  0800 1357 342</font><font color="#000000">
+	</font>
+</div>
+</div>
+
+
+
+
+</div>
+</body>
+</html>

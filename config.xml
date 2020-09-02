@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.stockportdesign.TorontosCanadianCharcoalGrill"
+    versionCode = "10"
+    version     = "1.0.0" >
+    
+  <name>Toronto's Canadian Charcoal Grill</name>
+
+  <description>
+      Stockport Design - 07513973726
+  </description>
+
+  <author href="http://stockportdesign.co.uk" email="stockportdesign@gmail.com">
+      Abolfazl S.Gilani
+  </author>
+
+  <!-- all platforms -->
+
+  <preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="orientation" value="portrait" />
+  <preference name="fullscreen" value="true" />
+
+<!-- whitelist-->
+<plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" />
+<!-- whitelist-->
+    
+
+    
+    
+    
+<!-- Call -->
+<access launch-external="yes" origin="tel:*" />
+<!-- Call -->
+    
+    
+  <icon src="icon.jpg" />
+
+  <content src="index.html" />
+</widget>
